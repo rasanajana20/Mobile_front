@@ -3,7 +3,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import "./login.css";
 
-const API_URL = "http://localhost:3001/api/users";
+const API_URL = "https://mobile-back-api-kunu.vercel.app//users";
 
 function Login() {
   const [users, setUsers] = useState([]);
