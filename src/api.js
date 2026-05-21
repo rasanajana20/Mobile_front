@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://mobile-back-api-jffu.vercel.app/", // backend url
+  baseURL: "https://mobile-back-api-jffu.vercel.app/api", // backend url
 });
 
 // add token if available
